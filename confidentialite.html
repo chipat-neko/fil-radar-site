@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Politique de confidentialité — Fil Radar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>Politique de confidentialité</h1>
+    <p class="date">Fil Radar · en vigueur le 6 novembre 2026</p>
+  </header>
+
+  <p>Fil Radar est une application Android personnelle. Elle n'a pas de serveur : ses données restent sur
+  ton téléphone et, si tu le connectes, dans ton propre Google Drive. Rien n'est envoyé à l'auteur de
+  l'application.</p>
+
+  <h2>Données enregistrées sur le téléphone</h2>
+  <ul>
+    <li>Les notifications des applications d'actualité que tu suis : titre, texte, application
+      d'origine, date et heure.</li>
+    <li>Quand une nouvelle application envoie une notification qui ressemble à un article, Fil Radar la
+      garde de côté et te demande si tu veux suivre cette application. Si tu réponds non, ces
+      notifications vont dans la corbeille de l'application, que tu vides toi-même.</li>
+    <li>Les autres notifications (messages, appels, alarmes…) sont ignorées et ne sont pas enregistrées.</li>
+    <li>Les articles que tu partages vers Fil Radar : titre et lien.</li>
+    <li>Ce que tu ajoutes toi-même : catégories, notes, consignes, explications de Claude que tu colles.</li>
+    <li>Pour les articles gardés : leur texte complet et une image.</li>
+  </ul>
+  <p>Tout est stocké dans une base de données sur le téléphone.</p>
+
+  <h2>Connexions faites par l'application</h2>
+  <ul>
+    <li><strong>Sites des articles</strong> : pour un article gardé, Fil Radar télécharge sa page afin d'en
+      garder le texte complet et une image.</li>
+    <li><strong>Tavily</strong>, seulement si tu as saisi une clé Tavily : le titre d'un article gardé sans
+      lien est envoyé à ce service de recherche, pour retrouver le lien de l'article. Rien d'autre.</li>
+    <li><strong>Google Drive</strong>, seulement si tu le connectes (voir plus bas).</li>
+    <li><strong>Claude</strong> : Fil Radar n'envoie rien tout seul. Quand tu touches « Envoyer à
+      Claude », l'application Claude s'ouvre avec le texte, et c'est toi qui décides de l'envoyer.</li>
+  </ul>
+
+  <h2>Google Drive</h2>
+  <ul>
+    <li>Fil Radar demande uniquement l'accès <code>drive.file</code> : il ne voit et ne modifie que les
+      fichiers qu'il a créés lui-même. Il ne lit aucun autre fichier de ton Drive.</li>
+    <li>Il crée un dossier « Fil Radar » avec un Google Docs par article gardé, un document par jour pour
+      la boîte de réception, et un dossier « Corbeille » pour les articles retirés. Il n'efface rien.</li>
+    <li>Ces données servent seulement à ranger tes articles dans ton Drive. Elles ne sont ni vendues, ni
+      transmises à des tiers, ni utilisées pour de la publicité ou pour entraîner des modèles d'IA.</li>
+    <li>L'utilisation et le transfert, vers toute autre application, des informations reçues des API
+      Google respectent le
+      <a href="https://developers.google.com/terms/api-services-user-data-policy">Règlement sur les
+      données utilisateur des services d'API Google</a>, y compris les exigences d'utilisation limitée
+      (Limited Use).</li>
+  </ul>
+
+  <h2>Ce que Fil Radar ne fait pas</h2>
+  <ul>
+    <li>Aucune publicité, aucun traceur, aucune statistique d'utilisation envoyée.</li>
+    <li>Aucun compte à créer.</li>
+    <li>Aucune revente ni aucun partage de données.</li>
+  </ul>
+
+  <h2>Effacer tes données</h2>
+  <ul>
+    <li>Désinstaller Fil Radar efface sa base de données du téléphone.</li>
+    <li>Les documents envoyés sur Drive restent dans ton Drive : supprime le dossier « Fil Radar » pour les
+      effacer.</li>
+    <li>Pour retirer l'accès à Drive : « Déconnecter » dans les réglages de Fil Radar, ou la page
+      <a href="https://myaccount.google.com/connections">Applications et services tiers</a> de ton
+      compte Google.</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <p>Pour toute question, ouvre une demande sur
+  <a href="https://github.com/chipat-neko/fil-radar-site/issues">la page GitHub du site</a>.</p>
+
+  <nav>
+    <a href="./">Accueil</a>
+    <a href="conditions.html">Conditions d'utilisation</a>
+  </nav>
+</main>
+</body>
+</html>
